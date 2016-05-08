@@ -53,6 +53,62 @@ namespace Labs
             //int i, j;
             Random r = new Random();
 
+            #region Exercicio 2.1
+
+            Console.WriteLine("Exercicio - Array");
+            int[] v1 = new int[10];
+            int[] v2 = new int[10];
+
+            for (i = 0; i < 10; i++) v1[i] = r.Next(10);
+
+            for (i = 0; i < 10; i++) v2[i] = v1[9 - i];
+
+
+            for (i = 0; i < 10; i++) Console.Write(v1[i] + " ");
+            Console.WriteLine("\n");
+
+            for (i = 0; i < 10; i++) Console.Write(v2[i] + " ");
+            Console.WriteLine("\n");
+
+            #endregion
+
+            #region Exercicio 2.2 - array multidimensional
+
+            Console.WriteLine("Exercicio - Array multidimensional");
+            int[,] m = new int[5, 5];
+            int[] v = new int[5];
+
+            for (i = 0; i < 5; i++)
+                for (j = 0; j < 5; j++) m[i, j] = r.Next(10);
+
+
+            for (i = 0; i < 5; i++)
+            {
+                for (j = 0; j < 5; j++)
+                {
+                    Console.Write(m[i, j] + "  ");
+                }
+                Console.WriteLine("");
+            }
+
+            for (j = 0; j < 5; j++)
+            {
+                v[j] = 0;
+                for (i = 0; i < 5; i++)
+                {
+                    v[j] += m[i, j];
+                }
+            }
+
+            Console.WriteLine("");
+
+            for (i = 0; i < 5; i++) Console.Write(v[i] + " ");
+
+            Console.WriteLine("\n");
+
+
+            #endregion
+
            
         }
     }
