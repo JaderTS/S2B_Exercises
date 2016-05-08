@@ -10,6 +10,7 @@ namespace Labs
     {
         static void Main(string[] args)
         {
+            /*
             Console.WriteLine("Array de inteiros");
             int[] array = new int[5] { 10, 20, 30, 40, 50 };
             int i, j;
@@ -171,6 +172,7 @@ namespace Labs
             Console.ReadLine();
 
             #endregion 
+            */
         }
     }
 }

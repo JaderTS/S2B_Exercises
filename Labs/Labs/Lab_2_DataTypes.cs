@@ -10,7 +10,7 @@ namespace Labs
     {
         static void Main_2(String[] args)
         {
-            Console.WriteLine("Exer 1");
+            /*Console.WriteLine("Exer 1");
             byte b;
             b = byte.MaxValue;
             Console.WriteLine("Valor máximo de b:" + b);
@@ -126,7 +126,7 @@ namespace Labs
             Console.WriteLine("X=" + x + " Y=" + y);
             Console.WriteLine("X={0} Y={1}", x, y);
             #endregion
-
+            */
         }
     }
 }
