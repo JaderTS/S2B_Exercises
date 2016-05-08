@@ -109,7 +109,68 @@ namespace Labs
 
             #endregion
 
-           
+            #region Exercicio 2.2 - array jagged
+
+            Console.WriteLine("Exercicio - Array jagged");
+            int[][] mj = new int[5][];
+            int[] vs = new int[5];
+
+            for (i = 0; i < 5; i++)
+            {
+                mj[i] = new int[5];
+                for (j = 0; j < 5; j++) mj[i][j] = r.Next(10);
+            }
+
+            for (i = 0; i < 5; i++)
+            {
+                for (j = 0; j < 5; j++)
+                {
+                    Console.Write(mj[i][j] + "  ");
+                }
+                Console.WriteLine("");
+            }
+
+            for (j = 0; j < 5; j++)
+            {
+                vs[j] = 0;
+                for (i = 0; i < 5; i++)
+                {
+                    vs[j] += mj[i][j];
+                }
+            }
+
+            Console.WriteLine("<br />");
+
+            for (i = 0; i < 5; i++) Console.Write(vs[i] + " ");
+
+            Console.WriteLine("");
+
+            #endregion
+
+            #region Exercicio 2.2 - array jagged (variando tamanho de linhas) - descomentar
+
+            Console.WriteLine("Exercicio - Array jagged (versao modificada)");
+            int[][] mjj = new int[5][];
+            int[] vss = new int[5];
+
+            for (i = 0; i < 5; i++)
+            {
+                mjj[i] = new int[r.Next(7) + 1];
+                for (j = 0; j < mjj[i].Count(); j++) mjj[i][j] = r.Next(10);
+            }
+
+            for (i = 0; i < 5; i++)
+            {
+                for (j = 0; j < mjj[i].Count(); j++)
+                {
+                    Console.Write(mjj[i][j] + "  ");
+                }
+                Console.WriteLine("");
+            }
+
+            Console.ReadLine();
+
+            #endregion 
         }
     }
 }
