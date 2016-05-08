@@ -43,6 +43,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Lab_2_DataTypes.cs" />
     <Compile Include="Lab_3_Arrays.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
