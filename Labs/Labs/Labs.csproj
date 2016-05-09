@@ -45,6 +45,7 @@
   <ItemGroup>
     <Compile Include="ClassesAndInheritance\Circulo.cs" />
     <Compile Include="ClassesAndInheritance\CirculoColorido.cs" />
+    <Compile Include="ClassesAndInheritance\CirculoPreenchido.cs" />
     <Compile Include="DefineClass\ContaCorrente.cs" />
     <Compile Include="Lab_2_DataTypes.cs" />
     <Compile Include="Lab_4_DefineClass.cs" />
