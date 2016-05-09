@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Labs.DefineClass;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -8,9 +9,8 @@ namespace Labs
 {
     class Lab_3_Arrays
     {
-        static void Main(string[] args)
+        static void Main_3(String[] args)
         {
-            /*
             Console.WriteLine("Array de inteiros");
             int[] array = new int[5] { 10, 20, 30, 40, 50 };
             int i, j;
@@ -172,7 +172,7 @@ namespace Labs
             Console.ReadLine();
 
             #endregion 
-            */
+            
         }
     }
 }
