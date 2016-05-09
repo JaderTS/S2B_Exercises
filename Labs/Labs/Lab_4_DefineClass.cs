@@ -9,7 +9,7 @@ namespace Labs
 {
     class Lab_4_DefineClass
     {
-        static void Main(string[] args)
+        static void Main_4(string[] args)
         {
             //ContaCorrente minhaConta = new ContaCorrente();
             //minhaConta.Depositar(1000);
