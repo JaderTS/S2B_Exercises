@@ -23,6 +23,26 @@ namespace Labs
 
             Console.WriteLine(conta1.Id + " - R$ " + conta1.Saldo);
             Console.WriteLine(conta2.Id + " - R$ " + conta2.Saldo);
+
+            Conta[] cad = new Conta[3];
+
+            cad[0] = conta1;
+            cad[1] = conta2;
+            cad[2] = new ContaPoupanca(0.5M, t.AddDays(10), "Beltrano");
+
+            Console.WriteLine("\nAniversario das contas poupança:");
+
+            foreach (Conta c in cad)
+            {
+                ContaPoupanca cp = c as ContaPoupanca;
+                if (cp != null)
+                {
+
+                    Console.WriteLine(cp.Titular + " aniversaro " + cp.DataAniversario);
+                }
+            }
+
+            Console.ReadLine();
         }
     }
 }
