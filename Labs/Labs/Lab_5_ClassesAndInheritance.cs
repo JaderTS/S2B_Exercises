@@ -9,11 +9,12 @@ namespace Labs
 {
     class Lab_5_ClassesAndInheritance
     {
-        static void Main(string[] args)
+        static void Main_5(string[] args)
         {
             //Circulo circ1 = new Circulo();
             //Console.WriteLine(circ1);
-            //Console.WriteLine("");            //Circulo circ2 = new Circulo(2.4, 5, 3);
+            //Console.WriteLine("");
+            //Circulo circ2 = new Circulo(2.4, 5, 3);
             //Console.WriteLine(circ2);
 
             Circulo circ1 = new Circulo();
