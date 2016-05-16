@@ -53,6 +53,7 @@
     <Compile Include="Interfaces\IEstadoBinario.cs" />
     <Compile Include="Interfaces\Lampada.cs" />
     <Compile Include="Interfaces\Termometro.cs" />
+    <Compile Include="Interfaces\TermometroEletrico.cs" />
     <Compile Include="Lab_2_DataTypes.cs" />
     <Compile Include="Lab_4_DefineClass.cs" />
     <Compile Include="Lab_3_Arrays.cs" />
