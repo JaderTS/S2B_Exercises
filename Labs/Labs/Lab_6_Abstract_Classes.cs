@@ -9,7 +9,7 @@ namespace Labs
 {
     class Lab_6_Abstract_Classes
     {
-        static void Main(string[] args)
+        static void Main6(string[] args)
         {
             ContaCorrente conta1 = new ContaCorrente("Fulano");
             DateTime t = new DateTime(2009, 10, 21);

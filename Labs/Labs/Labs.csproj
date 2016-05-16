@@ -45,15 +45,18 @@
   <ItemGroup>
     <Compile Include="AbstractClasses\Conta.cs" />
     <Compile Include="AbstractClasses\ContaCorrente.cs" />
+    <Compile Include="AbstractClasses\ContaPoupanca.cs" />
     <Compile Include="ClassesAndInheritance\Circulo.cs" />
     <Compile Include="ClassesAndInheritance\CirculoColorido.cs" />
     <Compile Include="ClassesAndInheritance\CirculoPreenchido.cs" />
     <Compile Include="DefineClass\ContaCorrente.cs" />
+    <Compile Include="Interfaces\IEstadoBinario.cs" />
     <Compile Include="Lab_2_DataTypes.cs" />
     <Compile Include="Lab_4_DefineClass.cs" />
     <Compile Include="Lab_3_Arrays.cs" />
     <Compile Include="Lab_5_ClassesAndInheritance.cs" />
     <Compile Include="Lab_6_Abstract_Classes.cs" />
+    <Compile Include="Lab_7_Interfaces.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
